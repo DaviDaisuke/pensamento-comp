@@ -38,7 +38,7 @@ body, ul, li, p{
     }
 
     .imagem{
-        width: 400px;
+        width: 250px;
         height: auto;
     }
 
@@ -48,4 +48,23 @@ body, ul, li, p{
 
     p{
         color: black;
+    }
+
+    .flex{
+        min-height: 100vh;
+        background-color: darkgrey;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item{
+        display: flex;
+        align-items: flex-start;
+        border: 2px solid black;
+        margin: 10px;
+    }
+
+    .paragrafo{
+        padding: 10px;
+        text-align: justify;
     }
